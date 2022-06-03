@@ -167,8 +167,6 @@ async function main () {
         console.log('Got status update: ', ev)
     })
 
-    
-    job.computeGroups = [{ joinKey: "ovwatch", joinSecret: "0UFRCfojif" }];
     const results = await job.exec()
     end = performance.now()
     resultSet = Array.from(results)
