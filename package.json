@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dcp-client": "^4.2.7",
+    "dcp-util": "^2.2.7"
+  }
+}
